@@ -1,5 +1,5 @@
 {% set name = "dimet" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dimet-{{ version }}.tar.gz
-  sha256: 40d5dee29232deb5722392c745a70f757c78128829b372ce0093fe2fbaf9411e
+  sha256: f5d601a43994705d6bc0cd3948b57756b89dfbd8784266549929a0c8ac3368db
 
 build:
   noarch: python

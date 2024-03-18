@@ -1,4 +1,4 @@
-{% set version = "2.0.1" %}
+{% set version = "2.0.4" %}
 
 package:
   name: ppanggolin
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/labgem/PPanGGOLiN/archive/{{ version }}.tar.gz
-  sha256: 0e13410a03f825894ceccb7c7a85f8acee060cd98c720486fbb90df71cbd5275
+  sha256: 7ad714d4ab7a81e3a51119aa9ba04d86455eabad175c1da751b0a27501ac76a9
 
 build:
   number: 0
